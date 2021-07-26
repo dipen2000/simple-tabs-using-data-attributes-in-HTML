@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./styles.css">
+    <script defer src="./script.js"></script> 
+    <title>Simple tabs</title>
+</head>
+<body>
+    <div>
+        <ul class="navtabs">
+            <li  class="active" data-tab-names="home">Home</li>
+            <li data-tab-names="about">About</li>
+            <li data-tab-names="pricing">Pricing</li>
+        </ul>
+    </div>
+    <div data-tab-contents  id="home" class="active">
+        <h1>Home</h1>
+        <div>The home content will show up here</div>
+    </div>
+    
+    <div data-tab-contents id="about">
+        <h1>About</h1>
+        <div>The about content will show up here</div>
+    </div>
+    
+    <div data-tab-contents id="pricing">
+        <h1>Pricing</h1>
+        <div>The pricing content will show up here</div>
+    </div>
+    
+    
+</body>
+</html>
